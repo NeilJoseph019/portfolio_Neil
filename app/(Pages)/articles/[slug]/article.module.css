@@ -1,0 +1,239 @@
+
+/* .container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #374151;
+} */
+
+/* .content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 2.5rem 0 1.5rem;
+  border-bottom: 3px solid #e5e7eb;
+  padding-bottom: 0.75rem;
+}
+
+.content h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 2.5rem 0 1.25rem;
+}
+
+.content blockquote {
+  background: #eff6ff;
+  border-left: 4px solid #3b82f6;
+  padding: 1.25rem 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  color: #1e40af;
+}
+
+.content code {
+  background: #f3f4f6;
+  padding: 0.125rem 0.375rem;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  color: #dc2626;
+}
+
+.content pre {
+  background: #1f2937;
+  color: #f9fafb;
+  padding: 1.5rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.content th,
+.content td {
+  padding: 1rem 1.25rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.content th {
+  background: #f9fafb;
+  font-weight: 600;
+} */
+
+
+/* Headings */
+.content h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin: 2.5rem 0 1rem;
+  letter-spacing: -0.02em;
+}
+
+.content h2 {
+  font-size: 1.75rem;
+  font-weight: 650;
+  margin: 2.25rem 0 1rem;
+  letter-spacing: -0.01em;
+}
+
+.content h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 2rem 0 0.75rem;
+}
+
+.content h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 1.75rem 0 0.75rem;
+}
+
+/* Paragraph */
+.content p {
+  margin: 1rem 0;
+}
+
+/* Links */
+.content a {
+  color: #2563eb;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 500;
+}
+
+.content a:hover {
+  color: #1d4ed8;
+}
+
+/* Strong / Emphasis */
+.content strong {
+  font-weight: 650;
+  color: #66d28c;
+}
+
+.content em {
+  color: #787a7f;
+}
+
+/* Blockquote (Notion-style callout quote) */
+.content blockquote {
+  border-left: 4px solid #d1d5db;
+  padding: 0.75rem 1.25rem;
+  margin: 1.75rem 0;
+  background: #bac7c5;
+  border-radius: 8px;
+  color: #0a0a0b;
+  font-style: italic;
+}
+
+/* Inline Code */
+.content code {
+  background: #2f3135;
+  padding: 0.15rem 0.4rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  color: #dc2626;
+}
+
+/* Code Blocks */
+.content pre {
+  background: #111827;
+  color: #f9fafb;
+  padding: 1.25rem 1.5rem;
+  border-radius: 12px;
+  overflow-x: auto;
+  margin: 1.75rem 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.content pre code {
+  background: transparent;
+  padding: 0;
+  color: inherit;
+  font-size: inherit;
+}
+
+/* Lists */
+.content ul,
+.content ol {
+  margin: 1.25rem 0;
+  padding-left: 1.75rem;
+}
+
+.content li {
+  margin: 0.5rem 0;
+}
+
+/* Horizontal Line */
+.content hr {
+  margin: 2.5rem 0;
+  border: none;
+  border-top: 1px solid #e5e7eb;
+}
+
+/* Tables */
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  background: #8d9597;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.content th,
+.content td {
+  padding: 0.9rem 1.1rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.content th {
+  background: #677574;
+  font-weight: 600;
+  color: #000000;
+}
+
+.content tr:hover td {
+  background: #99b1b1;
+}
+
+/* Images */
+.content img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin: 1.75rem 0;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Highlighted text (if markdown supports <mark>) */
+.content mark {
+  background: #fef9c3;
+  padding: 0.1rem 0.25rem;
+  border-radius: 4px;
+}
+
+/* Notion-style callout box (if you use div.callout in HTML) */
+.content .callout {
+  background: #f3f4f6;
+  border-left: 5px solid #9ca3af;
+  padding: 1rem 1.25rem;
+  margin: 1.75rem 0;
+  border-radius: 12px;
+  color: #1f2937;
+}
